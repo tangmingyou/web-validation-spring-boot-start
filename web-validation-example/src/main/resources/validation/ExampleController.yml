@@ -1,0 +1,31 @@
+global:
+  consumer: com.xxx.Consumer
+  validations:
+    currentValis:
+      - DEFAULT
+
+scope:
+  consumer: com.xxx.Consumer
+  validations:
+    sizeValis:
+      - RANGE(1,300)
+
+namespace: net.uint32.example.validation.controller.ExampleController
+methods:
+  - method: test1
+    arguments:
+      param:
+        name:
+          name: 名称
+          validators:
+            - DEFAULT("二狗子")
+            - LENGTH(1,3)
+        age:
+          name: 年龄
+          validators:
+            - DEFAULT(12)
+            - RANGE(1,2)
+        address:
+          name: 地址
+          validators:
+            - DEFAULT("兴业街")
