@@ -14,9 +14,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>net.uint32</groupId>
-    <artifactId>web-validation-spring-boot-starter-root</artifactId>
+    <artifactId>web-validation</artifactId>
     <version>1.0.0</version>
-    <name>web-validation-spring-boot-starter-root</name>
+    <name>web-validation</name>
 
     <properties>
         <java.version>1.8</java.version>
