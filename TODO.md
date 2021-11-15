@@ -8,7 +8,11 @@
 
 ### TOML Param 配置文件
 
+### 配置解析过程
+namespace: class
+    method
+config -> custom config -> merge(default config, custom config)
+
 ### 方法注解配置
 
 ### hibernate-validateor 是否在 spring-web 前执行？
-
